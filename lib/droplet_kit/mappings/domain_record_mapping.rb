@@ -13,6 +13,7 @@ module DropletKit
       property :priority, scopes: [:read, :create, :update]
       property :port, scopes: [:read, :create, :update]
       property :weight, scopes: [:read, :create, :update]
+      property :ttl, scopes: [:read, :create, :update]
     end
   end
 end
